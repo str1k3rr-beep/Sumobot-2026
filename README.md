@@ -51,7 +51,7 @@ I started this project as a CircuitPython prototype, which I used to validate se
 6. Click Upload
 7. Open the Serial Monitor to confirm it's running
 
-## Gerardo
+## Photo of Gerardo
 
 <p align="center">
   <img src="./assets/gerardo_frontal.jpg.jpeg" width="60%" alt="Gerardo - front view" />
