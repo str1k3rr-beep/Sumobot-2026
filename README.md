@@ -29,7 +29,14 @@ The base hardware kit reference comes from Universidad Cenfotec's public reposit
 
 ## Process
 
-I started this project as a CircuitPython prototype, which I used to validate sensor behavior and basic combat logic like the round state machine, edge detection, and escape maneuvers. Once that was working, I fully ported the codebase to C++ using the Arduino framework and PlatformIO, which is now my main development line. Along the way I confirmed and corrected motor wiring and polarity through physical testing, since the motors were initially swapped and had incorrect polarity in code. I also refactored everything into a modular architecture, splitting responsibilities into separate files instead of one large script. Sensor behavior for the IR, ultrasonic, and IMU sensors was tuned empirically through repeated physical testing, since calibration values are hardware-specific and noisy. Issues like motor braking, blocking delays causing freezes, stale state after escape maneuvers, and brownout resets on battery power came up during testing, and I fixed them one at a time as I found them.
+I started this project as a CircuitPython prototype, which I used to validate sensor behavior and basic combat logic like the round state machine, edge detection, and escape maneuvers.
+
+Once that was working, I fully ported the codebase to C++ using the Arduino framework and PlatformIO, which is now my main development line.
+
+Along the way I confirmed and corrected motor wiring and polarity through physical testing, since the motors were initially swapped and had incorrect polarity in code.
+I also refactored everything into a modular architecture, splitting responsibilities into separate files instead of one large script.
+
+Sensor behavior for the IR, ultrasonic, and IMU sensors was tuned empirically through repeated physical testing, since calibration values are hardware-specific and noisy. Issues like motor braking, blocking delays causing freezes, stale state after escape maneuvers, and brownout resets on battery power came up during testing, and I fixed them one at a time as I found them.
 
 ## How This Can Be Improved
 
