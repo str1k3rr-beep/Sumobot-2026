@@ -1,7 +1,5 @@
 # Gerardo - Sumobot 2026
 
-## Intro
-
 Gerardo is a competitive sumo robot built for a robotics tournament, developed by the LeonBots team (Liceo León Cortés Castro, Grecia, Alajuela). The robot detects its opponent and the edge of the ring, and executes autonomous maneuvers to push the opponent out while avoiding falling off itself.
 
 The base hardware kit reference comes from Universidad Cenfotec's public repository. The firmware itself is developed by this team.
