@@ -26,6 +26,7 @@ The base hardware kit reference comes from Universidad Cenfotec's public reposit
 - 3-round match state machine with LED round indicators
 - Escape maneuvers when an edge is detected (forward, left push, right push)
 - Non-blocking timing throughout (no blocking `delay()` calls during maneuvers)
+- Auto test for all the components before the fight
 
 ## Process
 
