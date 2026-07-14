@@ -4,6 +4,14 @@ Robot de sumo competitivo desarrollado para torneo de robótica, como parte del 
 
 > El kit de hardware base utilizado proviene del repositorio público de **Universidad Cenfotec** (ver sección de Repositorios), no de la institución del equipo.
 
+## 📸 El robot
+
+<p align="center">
+  <img src="./assets/gerardo_frontal.jpg.jpeg" width="60%" alt="Gerardo - vista frontal" />
+  <br />
+  <img src="./assets/gerardo_lateral.jpg.jpeg" width="60%" alt="Gerardo - vista lateral" />
+</p>
+
 ![Status](https://img.shields.io/badge/status-en%20desarrollo-yellow)
 ![Platform](https://img.shields.io/badge/platform-ESP32--WROOM--32E-blue)
 ![Framework](https://img.shields.io/badge/framework-Arduino%20%2F%20PlatformIO-informational)
@@ -100,9 +108,11 @@ Este proyecto sigue un versionado simple:
 - **Número entero** (`6`, `7`...) → refactor grande o cambio de arquitectura
 - **Decimal** (`6.1`, `6.2`...) → fix o ajuste menor sobre esa versión base
 
+Ver [CHANGELOG.md](./CHANGELOG.md) para el historial detallado de cambios.
+
 ## 👥 Autor
 
-Código desarrollado por Isaac Zamora C — equipo **LeonBots**, Liceo León Cortés Castro (Grecia, Alajuela).
+Código desarrollado por [tu nombre] — equipo **LeonBots**, Liceo León Cortés Castro (Grecia, Alajuela).
 
 ## 📄 Licencia
 
