@@ -28,6 +28,8 @@ The base hardware kit reference comes from Universidad Cenfotec's public reposit
 - Non-blocking timing throughout (no blocking `delay()` calls during maneuvers)
 - Auto test for all the components before the fight
 - Watchdog for spontaneous resets by a hit
+- Dead reckoning function
+- Toggle wiggle
 
 ## Process
 
